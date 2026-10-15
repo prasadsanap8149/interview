@@ -1,3 +1,39 @@
+# 📚 Help AG Interview — Answer Bank
+
+Detailed, interview-ready answers to the question bank in [questions.md](questions.md).
+
+> **Progress: 20 / 175 questions answered.** Track the remaining ones in [answer-progress.md](answer-progress.md).
+
+## 📑 Table of Contents
+
+**Java Fundamentals (Q1–Q10)**
+
+1. [Explain the equals() and hashCode() contract. What breaks if it’s violated?](#explain-the-equals-and-hashcode-contract-what-breaks-if-its-violated)
+2. [How does Java memory management work (Heap, Stack, Metaspace)?](#how-does-java-memory-management-work-heap-stack-metaspace)
+3. [Difference between volatile, synchronized, and Atomic classes.](#difference-between-volatile-synchronized-and-atomic-classes)
+4. [How does garbage collection work in G1 vs ZGC?](#how-does-garbage-collection-work-in-g1-vs-zgc)
+5. [What happens if an exception is thrown inside a finally block?](#what-happens-if-an-exception-is-thrown-inside-a-finally-block)
+6. [How do you design immutable objects in Java?](#how-do-you-design-immutable-objects-in-java)
+7. [Explain class loading in Java. How do custom class loaders work?](#explain-class-loading-in-java-how-do-custom-class-loaders-work)
+8. [What are memory leaks in Java? Give real examples from production.](#what-are-memory-leaks-in-java-give-real-examples-from-production)
+9. [How do you debug OutOfMemoryError in a running JVM?](#how-do-you-debug-outofmemoryerror-in-a-running-jvm)
+10. [Difference between checked and unchecked exceptions—real-world use cases.](#difference-between-checked-and-unchecked-exceptionsreal-world-use-cases)
+
+**Spring Boot & Spring Ecosystem (Q11–Q20)**
+
+11. [How does Spring Boot auto-configuration work internally?](#how-does-spring-boot-auto-configuration-work-internally)
+12. [What is the difference between @Component, @Service, and @Repository?](#what-is-the-difference-between-component-service-and-repository)
+13. [How does Spring manage dependency injection lifecycle?](#how-does-spring-manage-dependency-injection-lifecycle)
+14. [What is @Transactional? How does propagation work?](#what-is-transactional-how-does-propagation-work)
+15. [When does @Transactional NOT work?](#when-does-transactional-not-work)
+16. [Explain lazy vs eager loading in Spring Data JPA.](#explain-lazy-vs-eager-loading-in-spring-data-jpa)
+17. [How do you handle N+1 query issues?](#how-do-you-handle-n1-query-issues)
+18. [Difference between JpaRepository and CrudRepository.](#difference-between-jparepository-and-crudrepository)
+19. [How do you implement pagination and sorting efficiently?](#how-do-you-implement-pagination-and-sorting-efficiently)
+20. [How do you secure Spring Boot applications?](#how-do-you-secure-spring-boot-applications)
+
+---
+
 ### Explain the equals() and hashCode() contract. What breaks if it’s violated?
 
 ---
@@ -2568,8 +2604,6 @@ public class GlobalExceptionHandler {
 * Should controllers throw checked exceptions?
 * How exception handling works in microservices?
 
-Ask the next one 🚀
-
 ---
 ### How does Spring Boot auto-configuration work internally?
 
@@ -2836,8 +2870,6 @@ MyService myService; // auto-created
 * How to exclude auto-config?
 * How does Spring Boot 3 improve startup?
 * How conditional annotations work internally?
-
-Ask the next one 🚀
 
 
 
@@ -3438,10 +3470,8 @@ public class UserController {
 * Where should @Transactional be placed?
 * What happens if we annotate DAO with @Component?
 
-Ask the next one 🚀
-
 ---
-How does Spring manage dependency injection lifecycle?
+### How does Spring manage dependency injection lifecycle?
 
 This is a **core Spring internals + lifecycle + DI question**. Interviewers want to know **what happens behind the scenes**, not just `@Autowired`.
 
@@ -3737,8 +3767,6 @@ Spring Boot:
 * How Spring handles circular dependencies?
 * Difference between prototype and singleton lifecycle?
 
-Ask the next one 🚀
-
 ---
 
 ### What is @Transactional? How does propagation work?
@@ -4027,8 +4055,6 @@ public List<User> findAll() {}
 * How rollback rules work?
 * Distributed transactions in microservices?
 
-Ask the next one 🚀
-
 ---
 ### When does @Transactional NOT work?
 
@@ -4293,8 +4319,6 @@ public void save() {
 * How to make @Transactional work across beans?
 * Distributed transactions in microservices?
 
-Ask the next one 🚀
-
 ---
 
 ### Explain lazy vs eager loading in Spring Data JPA.
@@ -4535,8 +4559,6 @@ User findWithRoles(Long id);
 * How Hibernate proxies work?
 * Difference between fetch join and EntityGraph?
 * Why EAGER is dangerous?
-
-Ask the next one 🚀
 
 
 ---
@@ -4798,8 +4820,6 @@ public class OrderService {
 * How batch fetching works internally?
 * Why OSIV is dangerous?
 
-Ask the next one 🚀
-
 
 ---
 
@@ -4988,8 +5008,6 @@ Rare cases:
 * What is flush in Hibernate?
 * How pagination works internally?
 * Why batch operations are faster?
-
-Ask the next one 🚀
 
 ---
 ### How do you implement pagination and sorting efficiently?
@@ -5239,8 +5257,6 @@ List<User> findNextPage(Long lastId, Pageable pageable);
 * Why fetch join breaks pagination?
 * How keyset pagination improves performance?
 * How to paginate with joins safely?
-
-Ask the next one 🚀
 
 ---
 ### How do you secure Spring Boot applications?
@@ -5514,10 +5530,3 @@ Client → API Gateway → Spring Boot (JWT Validation)
 * How to integrate Azure AD / B2C?
 
 ---
-
-Ask the next one 🚀
-
----
-
-### How do you handle distributed transactions?
-

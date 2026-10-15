@@ -1,7 +1,8 @@
-Got it 👍
-This role is **senior, cloud-native, Java-centric, security-heavy, and integration-focused**. Below is a **carefully designed, deep interview question bank**, structured the way **Help AG / cybersecurity-first organizations** actually interview.
+# Help AG Interview — Senior Java Backend Question Bank
 
-I’ve grouped questions by **theme + difficulty**, including **scenario, design, and “pressure” questions**. This is intentionally exhaustive so you don’t get surprised.
+**Role profile:** senior, cloud-native, Java-centric, security-heavy, and integration-focused. Questions are grouped by **theme + difficulty**, including scenario, design, and pressure questions — structured the way **Help AG / cybersecurity-first organizations** actually interview.
+
+> 📌 **Companion files:** answers in [`answer.md`](answer.md) · progress tracker in [`answer-progress.md`](answer-progress.md)
 
 ---
 
@@ -300,11 +301,6 @@ For **Help AG**, interviewers will deeply test:
 * **Integration with enterprise systems**
 * **Real production experience**
 
-If you want next:
+---
 
-* ✅ **Model answers for top 50 critical questions**
-* ✅ **System design mock: Secure Cybersecurity Platform**
-* ✅ **Help AG–style interview simulation**
-* ✅ **Resume alignment & talking points**
-
-Just tell me what you want to crack next 🚀
+➡️ **Next step:** work through the unanswered questions tracked in [`answer-progress.md`](answer-progress.md) and add full answers to [`answer.md`](answer.md).

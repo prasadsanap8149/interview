@@ -50,3 +50,9 @@ The bank contains 905 questions across 34 section files. Every question has all 
 The examples are deliberately scoped to the question: Java snippets target Java 21, Spring snippets target the servlet stack used by Spring Boot 3.5, SQL snippets are portable unless a database section says otherwise, and Docker/Kubernetes/cloud examples are configuration fragments that require real environment values. Security examples document assumptions such as bearer-only authentication before disabling CSRF.
 
 The generated answer bank was audited for question numbering, field completeness, empty/comment-only code blocks, and leftover scaffold phrases. Representative Java snippets and the Spring Security examples were reviewed against the project’s Java 21/Spring Boot dependencies and the official Spring Security reference documentation. Examples that depend on a database, cloud account, container runtime, identity provider, or secret store require integration validation in that environment.
+
+## Known limitations
+
+- Most entries use **template boilerplate** for several fields: the “detailed explanation” often repeats the short answer, the “Example” field contains a generic scaffold sentence (“…the normal case follows the rule in the short answer…”), and code examples reuse a generic `JavaConceptExample` class instead of question-specific code. This filler appears in 33 of the 34 section files (roughly once per question).
+- The cited source file `Question Paper.md` is not present in the repository.
+- **Reliable parts:** question selection, difficulty/topic labels, short answers, and topic coverage. **Treat the boilerplate fields as placeholders** and rewrite a section before relying on it for final prep.

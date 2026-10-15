@@ -1,0 +1,16 @@
+# Windows
+Thumbs.db
+desktop.ini
+~$*
+
+# macOS
+.DS_Store
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Generated exports (remove this line if you want PDFs versioned)
+*.pdf
